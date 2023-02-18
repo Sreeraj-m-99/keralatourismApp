@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+}
+.navBar{
+    height: 78px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 40px;
+    width: 70px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 33px;
+}
+.list{
+    background-color: brown;
+    height: 40px;
+    width: 214px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    margin-right: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: skyblue;
+    
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+}
